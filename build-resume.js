@@ -10,12 +10,13 @@ const dayjs = require("dayjs");
         await page.goto(location, {
             waitUntil: "networkidle2"
         });
-
+	const path = `build/Ken-Hoff-Resume-${dayjs().format("YYYY-MM-DD")}.pdf`
         await page.pdf({
-            path: `build/Ken-Hoff-Resume-${dayjs().format("YYYY-MM-DD")}.pdf`,
+            path,
             printBackground: true
         });
         await browser.close();
+	console.log(`built at ${path}`);
     } catch (e) {
         console.log(e);
     }
