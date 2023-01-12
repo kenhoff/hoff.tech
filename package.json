@@ -16,8 +16,9 @@
         "metalsmith-changed": "^3.1.1",
         "metalsmith-jstransformer": "^0.13.2",
         "metalsmith-pug": "^2.0.0",
-        "metalsmith-sass": "^1.6.0",
+        "metalsmith-sass": "^2.0.0",
         "moment": "^2.22.2",
+        "node-sass": "^7.0.3",
         "nodemon": "^2.0.4",
         "puppeteer": "^2.0.0"
     }
