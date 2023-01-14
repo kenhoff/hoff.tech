@@ -1865,7 +1865,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.1.2#~builtin<compat/fsevents>":
   version: 2.1.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#~builtin<compat/fsevents>::version=2.1.3&hash=31d12a"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.3#~builtin<compat/fsevents>::version=2.1.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -4009,8 +4009,8 @@ __metadata:
   linkType: hard
 
 "pug-code-gen@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "pug-code-gen@npm:2.0.2"
+  version: 2.0.3
+  resolution: "pug-code-gen@npm:2.0.3"
   dependencies:
     constantinople: ^3.1.2
     doctypes: ^1.1.0
@@ -4020,7 +4020,7 @@ __metadata:
     pug-runtime: ^2.0.5
     void-elements: ^2.0.1
     with: ^5.0.0
-  checksum: 33e664a9b44af73c7285a6cfeee94766eeeadeff37825a809ed742077b38ceeb26cf9fadb0cb604b6a78b98391b466ce2f65bd15ef637bb7dd6e8cb1b9f266d3
+  checksum: 379c55f45306047b1978a33020009c670d8c1cb1bbdd15354cb7804898cca65d71739708c3a071ebb36fef53b074e47527a4fe78b66f78e95459c745cf622182
   languageName: node
   linkType: hard
 
@@ -4434,7 +4434,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>":
   version: 1.12.0
-  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=07638b"
   dependencies:
     path-parse: ^1.0.6
   checksum: 8a532655cc160961463214d2c2522fb4ea8808d13ff15cc48ab9c5193d302782a577c220481055e792fcc3b8a0df039251da903654780d5a7bb364b1f2e6861d
@@ -4443,7 +4443,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
